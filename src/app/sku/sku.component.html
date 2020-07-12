@@ -1,0 +1,7 @@
+<div>
+    <div *ngFor="let row of specList;let i=index">
+        <button [disabled]="!optionSpecs.includes(value)" nz-button
+            [nzType]="specsS.includes(value)?'primary':'default'" *ngFor="let value of row.list"
+            (click)="handleClick(value,i)">{{value}}</button>
+    </div>
+</div>
