@@ -43,6 +43,7 @@ export class AdjoinMatrix {
   getColSum(params: AdjoinType) {
     const paramsVertex = params.map((id) => this.getVertexCol(id));
     const paramsVertexSum: Array<number> = [];
+    console.log(paramsVertex);
     this.vertex.forEach((item, index) => {
       const rowtotal = paramsVertex.map((value) => value[index]);
       const tmpRowTotal = rowtotal.reduce((total, current) => {
