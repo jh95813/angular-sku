@@ -42,7 +42,6 @@ export class SpecAdjoinMatrix extends AdjoinMatrix {
         if (specsOption.includes(value)) params.push(value);
       });
       // 同级点位创建
-
       this.fillInSpec(params);
     });
   }

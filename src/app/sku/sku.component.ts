@@ -15,9 +15,9 @@ export class SkuComponent extends SpecAdjoinMatrix implements OnInit {
   ];
   specCombinationList = [
     { id: "1", specs: ["紫色", "套餐一", "64G"] },
-    { id: "2", specs: ["紫色", "套餐一", "128G"] },
-    { id: "3", specs: ["紫色", "套餐二", "128G"] },
-    { id: "4", specs: ["黑色", "套餐三", "256G"] },
+    { id: "2", specs: ["紫色", "套餐二", "64G"] },
+    { id: "3", specs: ["红色", "套餐三", "64G"] },
+    { id: "4", specs: ["紫色", "套餐三", "128G"] },
   ];
   constructor() {
     super();
